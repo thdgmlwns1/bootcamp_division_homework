@@ -8,5 +8,16 @@
 int main() {
     // 이곳에 코드를 작성해주세요!
 
+    int three;
+    int num1, num2, num3;
+
+
+    
+    scanf("%d",&three);
+    num1 = three % 10;
+    num2 = three / 10 % 10;
+    num3 = three / 100;
+
+    printf("%d%d%d\n", num1, num2, num3);
     return 0;
 }

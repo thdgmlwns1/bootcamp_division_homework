@@ -7,6 +7,23 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int age;
+    int height;
+
+    scanf("%d %d",&age,&height);
+    if(age>=14)
+    {
+        printf("X");
+        return 0;
+    }
+
+    if(height>=160)
+    {
+        printf("X");
+        return 0;
+    }
+
+    printf("O");
 
     return 0;
 }

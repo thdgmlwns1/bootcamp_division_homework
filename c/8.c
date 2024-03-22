@@ -7,6 +7,20 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int n;
+    int sum=0;
+    int fac=1;
+    scanf("%d",&n);
 
+    for(int i=0;i<=n;i++)
+    {
+        sum+=i;
+    }
+    for(int i=1;i<=n;i++)
+    {
+        fac*=i;
+    }
+
+    printf("%d\n%d",sum,fac);
     return 0;
 }
